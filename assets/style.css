@@ -1,0 +1,67 @@
+html,body{
+	height:100%;
+}
+body {
+	background:url('background.jpg') no-repeat;
+	background-size:100%;
+	color:#FFF;
+}
+
+ul, ol, li {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+header {
+	text-align:center;
+	height:60px;
+}
+
+header h1 {
+	display:block;
+	font-size:35px;
+	margin:0;
+	padding:5px 0 0;
+}
+section.main {
+	margin: 0;
+	width:100%;
+	height:85%;
+	display:table;
+}
+
+section.main nav, section.main section {
+	border-radius:3px;
+	background-color:rgba(255,255,255,0.2);
+	vertical-align:top;
+	height:100%;
+}
+section.main nav ul {
+	margin:10px;
+}
+section.main nav {
+	width:250px;
+	float:left;
+	margin:0px 10px;
+}
+
+section nav .btn {
+	
+}
+section nav li:not(.btn) {
+	background-color:rgba(0,0,0,0.2);
+	border-radius:1px;
+	margin:5px 0px;
+	padding:5px;
+}
+section nav li:first-child {
+	margin-top:0;
+}
+section.workspace {
+	display:table-cell;
+	width:95%;
+}
+.inset {
+	text-shadow:#000 0px 2px 0, #888 0 -2px 0;
+}

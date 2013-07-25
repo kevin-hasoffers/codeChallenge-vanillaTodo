@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vanilla JavaScript Todo App</title>
+    <meta name="description" content="Code challenge, HasOffers Fn(team)">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+	<h1 class="inset">JavaScript Todo App</h1>
+</header>
+<section class="main clearfix">
+	<nav id="todo-lists">
+		<ul>
+			<li>Inbox</li>
+			<li>New List Item</li>
+			<li id="create-list" class="btn icon-plus-sign-alt">Create New List</li>
+		</ul>
+	</nav>
+	<section class="workspace">
+		<div id="input">
+			<input type="text" name="add_todo" id="add-todo" placeholder="Enter new Todo" />
+		</div>
+		<ul id="todo-items">
+			<li>New Todo</li>
+			<li>Another new todo</li>
+		</ul>
+	</section>
+</section>
+
+</body>
+<script src="assets/ajax.js"></script>
+<script src="assets/dom.js"></script>
+<script src="assets/event.js"></script>
+<script src="assets/app.js"></script>
+</html>

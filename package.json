@@ -1,0 +1,17 @@
+{
+  "name": "codeChallenge-vanillaTodo",
+  "version": "0.1.0",
+  "description": "Has Offers Fn(team) Code Challenge July 2013",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kevin-hasoffers/codeChallenge-vanillaTodo.git"
+  },
+  "author": "HasOffers FrontEnd Engineering <fn@hasoffers.com>",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "connect": "~2.8.4"
+  }
+}
