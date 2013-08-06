@@ -13,5 +13,10 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "connect": "~2.8.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-contrib-jshint": "~0.6.0"
   }
 }
